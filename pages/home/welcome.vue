@@ -52,11 +52,12 @@ import ContactBar from '~/components/ContactBar';
 <style lang="scss">
   .nx-main-wrap {
     position: relative;
+    overflow: hidden;
     height: 100%;
 
     .nx-main-content {
       text-align: center;
-    }
+    } 
 
     .tab-bar {
       position: absolute;
